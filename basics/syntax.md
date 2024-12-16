@@ -39,3 +39,57 @@ print(f"string {integer}")
 print("string" .. integer)
 print("string", integer)
 ```
+
+Conditional statements are also relatively simple, and can generally be compared to both Python and C.
+```lua
+if variable == 0 then
+  -- if the variable's value is 0, follow this path
+elseif variable == 1 then
+  -- otherwise, if the variable's value is 1, follow this path
+else
+  -- if none of the above conditions are true, follow this last path
+end
+```
+
+Compared to Python, which looks like this:
+```python
+if variable == 0:
+  -- if variable's value is 0, follow this path
+elif variable == 1:
+  -- if the variable's value is 1, follow this path
+else:
+  -- if none of the above conditions are true, follow this last path.
+```
+
+In comparison, C looks like this:
+```c
+if (variable == 0) {
+  # follow this path is variable's value is 0
+} elseif (variable == 1) {
+  # otherwise, if the variable's value is 1, follow this path
+} else {
+  # if none of the above conditions are true, follow this final path
+}
+```
+
+You can realistically treat lua's then/end as C's use of curly brackets - or parenthesis.
+
+Creating functions is also simple - comparable to Python and MATLAB:
+```matlab
+% MATLAB
+function variable = x()
+  % function things here
+end
+```
+```python
+# python
+def x():
+  # function things here
+```
+```lua
+-- lua
+function x()
+  -- function things here
+end
+```
+Lua takes tons of things from other languages, which makes it good as a secondary language to learn - or maybe a first one because it crosses over with so many others.
