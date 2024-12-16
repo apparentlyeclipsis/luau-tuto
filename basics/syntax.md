@@ -95,7 +95,8 @@ end
 ```
 Lua takes tons of things from other languages, which makes it good as a secondary language to learn - or maybe a first one because it crosses over with so many others.
 
-Writing comments is simple, and you pretty much just do this:
+Writing comments is generally a feature in every programming language. 
+Comments are used to show
 ```lua
 -- use double dashes for inline comments
 
