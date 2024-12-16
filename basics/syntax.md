@@ -65,11 +65,11 @@ else:
 In comparison, C looks like this:
 ```c
 if (variable == 0) {
-  # follow this path is variable's value is 0
+  // follow this path is variable's value is 0
 } elseif (variable == 1) {
-  # otherwise, if the variable's value is 1, follow this path
+  // otherwise, if the variable's value is 1, follow this path
 } else {
-  # if none of the above conditions are true, follow this final path
+  // if none of the above conditions are true, follow this final path
 }
 ```
 
