@@ -15,7 +15,7 @@ DM @apparentlyeclipsis on discord! I'll fix literally anything that's incorrect 
 ## Reading This In Order
 <sub> skip most of the basics folder if you're familiar with other languages </sub>
 1. basics folder
-  1. syntax
-  2. variables
-  3. conditions
+  - syntax
+  - variables
+  - conditions
 
