@@ -1,3 +1,4 @@
+# Variables
 Initializing variables is as simple as this:
 ```lua
 local var
@@ -39,4 +40,4 @@ end)
 ```
 This value can be used in any way, however usually when you're using this call, you're only looking for a change in one specific value. Assuming you have this structure for multiple different properties on the same instance, you can use :GetPropertyChangedSignal(), which functions in about the same way. Connections and functions will be expanded on in different sections.
 
--# *Instances will be expanded on in other sections.
+*Instances will be expanded on in other sections.
