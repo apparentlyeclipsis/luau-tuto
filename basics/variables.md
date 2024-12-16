@@ -15,7 +15,7 @@ local var = script.Parent
 ```
 Using variables to store instances could quickly get complicated, however its likely the way you'll be using them most often. You can find instances through script variables in multiple different ways, the easiest example being like what we did above, having the instance be the script's parent.
 
-Variables in luau have method autocompletion, assuming the script can figure out what the class of the instance is. Method calls can be done as follows:
+Variables in luau have method autocompletion, assuming the script can figure out what the class of the instance* is. Method calls can be done as follows:
 ```lua
 -- assuming 'var' is representing a generic part,
 local var = script.Parent
@@ -37,4 +37,6 @@ var.Changed:Connect(function(value)
                              ^^^^^
 end)
 ```
-This value can be used in any way, however usually when you're using this call, you're only looking for a change in one specific value. Assuming you have this structure for multiple different properties on the same instance, you can use :GetPropertyChangedSignal(), which functions in about the same way.
+This value can be used in any way, however usually when you're using this call, you're only looking for a change in one specific value. Assuming you have this structure for multiple different properties on the same instance, you can use :GetPropertyChangedSignal(), which functions in about the same way. Connections and functions will be expanded on in different sections.
+
+-# *Instances will be expanded on in other sections.
