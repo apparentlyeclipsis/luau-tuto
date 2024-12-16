@@ -1,9 +1,10 @@
-Lua's syntax is relatively simple, and can generally be compared to MATLAB, C.
+Lua's syntax is relatively simple, and can generally be compared to MATLAB and C.
 
 A MATLAB example is as follows:
 ```matlab
 variable = x
-% initialize variable as 'x' - this assumes 'x' 
+% initialize variable as 'x' - this assumes 'x'
+% note that you can also call the variable generally like this
 
 function variable = x
   % this assumes 'x' is a function - meaning that 'variable' is valued as whatever 'x' gives it.
