@@ -1,3 +1,4 @@
+# Syntax
 Lua's syntax is relatively simple, and can generally be compared to MATLAB and C.
 
 A MATLAB example is as follows:
