@@ -114,3 +114,5 @@ if value and multiplier then return value * multiplier end
 -- this does not:
 if value and multiplier then newValue = value * multiplier return newValue end
 ```
+
+More of this will be explained in other sections - variables, conditional statements, functions. Please check out the other sections, thank you.
