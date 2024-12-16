@@ -93,3 +93,22 @@ function x()
 end
 ```
 Lua takes tons of things from other languages, which makes it good as a secondary language to learn - or maybe a first one because it crosses over with so many others.
+
+Writing comments is simple, and you pretty much just do this:
+```lua
+-- use double dashes for inline comments
+
+--[[
+  use double dashes, then square brackets for large comments. end the comment using double square brackets as well.
+]]
+```
+Where python is extremely reliant on your indentation and lines, Lua realistically doesn't care. You could technically write conditional statements within a singular line, however variable initialization - and value changing - has to be done in a seperate line, otherwise you'll come across a syntax error.
+
+An example (although its likely a bad one):
+```lua
+-- this works:
+if value and multiplier then return value * multiplier end
+
+-- this does not:
+if value and multiplier then newValue = value * multiplier return newValue end
+```
