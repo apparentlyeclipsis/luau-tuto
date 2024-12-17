@@ -7,6 +7,7 @@ Now, if you've read the entire syntax file - you might not need this page, excep
 In Luau, you'll likely be using your variables to control instances, and values assigned to them. Linking a variable to an instance is simple, however it's also heavily dependent on how you're organizing your scripts, among other instances. The most common way you'll see these handled - especially with items taken from the Creator Marketplace - is hiding the scripts within the part.
 
 This uses Roblox Studio's ancestry tree - which could look like as follows:
+
 <img src="https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/4X/3/0/5/305521a57324178e4ce89d567a43824ebbb6662d_2_372x500.png" alt="Filter instance by class - Explorer update - Studio Features - Developer  Forum | Roblox"/>
 
 <sup> thank you, developer forum </sup>
