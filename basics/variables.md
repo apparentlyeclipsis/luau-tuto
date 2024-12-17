@@ -20,7 +20,7 @@ You can either directly connect this to a call, through things like ".Touched" a
 ```lua
 local parent = script.Parent
 ```
-You can connect to function calls in both ways, like this:
+When connecting to function calls, your code will start to connect together like this:
 ```lua
 -- without declaring the parent as a variable:
 script.Parent.Touched:Connect()
