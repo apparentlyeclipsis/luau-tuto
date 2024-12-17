@@ -72,3 +72,16 @@ clone.Transparency = 1
 -- sets the clone's transparency to 1 - or 100%
 ```
 These will be more expanded on in other sections, because this section is about variables, not properties, although both are correlated.
+
+## Indentation and Placement
+Indentation is very important to how 'powerful' your variables are. The farther nested your variable is, the more exclusive it is. Here's an example:
+```lua
+local var1 = 1
+-- everything below can access this variable. It's not indented at all
+
+for i=1, 5 do
+  local var2 = 2
+  -- only things inside this loop can access var2, while also being limited to the same 'only things below can access this' issue.
+end
+```
+Variables importance can generally be gauged by how early you see them in the program. They can also be exclusive to functions, which means either oversight, or that nowhere else needs them.
