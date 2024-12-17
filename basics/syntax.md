@@ -43,3 +43,69 @@ end
 ```
 
 ## Functions
+Functions are generally one of the most important things in any program. In lua, you can create both void and returning functions, and can provide parametres into one - just like pretty much every other programming language.
+
+Creating a void function (without parametres) would look like this:
+```lua
+function myFunction()
+
+end
+```
+If you want to make it a returning function, you can just add the keyword 'return'. Here's an example:
+```lua
+function myFunction()
+  return "string"
+end
+```
+Now with this returning function, there are multiple ways you can call it. Assuming the same function above, you can do this:
+```lua
+print(myFunction())
+
+-- example output:
+--> string
+
+local myVariable = myFunction()
+print(myVariable)
+--> string
+```
+You can also incorporate functions into if-else statements, the following being an example, using the same function as above.
+```lua
+local string = "string"
+if string == myFunction() then
+  print("both strings are the same")
+end
+```
+Parametres are very similar to how other languages, however with one key difference. In C, you can force a parametre type. The function will read the parametre's value as whatever you set it to. If the value isn't of the right type, the program breaks. Example:
+```cpp
+void myFunction(int integer) {
+  return integer*2
+}
+
+//  example in/output
+//  myFunction(12)       -> 24
+//  myFunction(12.5)     -> error
+//  myFunction("string") -> error
+```
+The reason that happens is because the value you provided has to be of the parametre's type. Lua has no check for this natively, however it can still break in a similar way, if you provide a type that isn't similar enough. 
+```lua
+function myFunction(integer)
+  return integer*2
+end
+
+--  example in/output
+--  myFunction(12)       -> 24
+--  myFunction(12.5)     -> 25
+--  myFunction("string") -> error
+```
+
+## Keywords
+Lua keywords are generally more similar to python keywords than keywords from other programming languages. Here are some common lua keywords, in no particular order:
+
+| -        | -      | -     | -      |
+| -------- | ------ | ----- | ------ |
+| and	     | break	| do    | else   |
+| elseif   | end	  | false	| for    |
+| function | if     | in    | local  |
+| nil	     | not  	| or    | repeat |
+| return   | then   | true  | until  |
+| while    | -      | -     | -      |
