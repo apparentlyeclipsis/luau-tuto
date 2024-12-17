@@ -54,3 +54,7 @@ function addTwo(originalNumber)
 end
 ```
 I note that there's no set length a function must be, so it can be as short, or as long as you'd like it to be. One suggestion is to keep them simple, requiring as little edge cases as possible. After all, you're coding it, you should know what you're putting inside.
+
+### Extra Notes
+<sup>[1]</sup> A void function is a function that doesn't return a value. It does its job, and moves on. In contrast, a returning function will send the value you told it to send back to the main program.
+<sup>[2]</sup> Check out the variables file for information on this.
