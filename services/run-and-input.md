@@ -26,7 +26,6 @@ runService.RenderStepped:Connect(function())
            ^^^^^^^^^^^^^
 end
 ```
-RenderStepped functions similarly, however you'll more commonly be using this for raycasting, instead of .Heartbeat, which is generally better for followers, among other things.
 
 ## isStudio
 isStudio is, as the name implies, a function that lets you check if you're running the game in studio. It's generally a nice feature, you can attach it to an if-else, variable, whatever.
