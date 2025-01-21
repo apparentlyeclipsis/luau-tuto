@@ -55,11 +55,15 @@ end
 ```
 The condition is the reason you're looping. While that condition is true, the loop will continue. Let's code out the steps example from before:
 ```lua
+while wallTouched do
+  part.Position.X += 1
+end
+```
+This loop will repeat until wallTouched's value is false<sup>[1]</sup>. You can also reverse conditions using the ``not`` operator, so you can also do this:
+```lua
 while not wallTouched do
   part.Position.X += 1
 end
 ```
-This loop will repeat until wallTouched's value is true<sup>[1]</sup>. The not reverses the value of the condition, so if you're saying wallTouched is false, you continue the loop. The keyword should be self explanitory in most cases - and if it isn't you should use brackets to clarify what the keyword (operator) is affecting.
-
 ### Extra Notes
 <sup>[1]</sup>This is just a small snippet, so again, please don't code like this. Programming is about combining basic instructions to solve complex logical problems, so you'll most likely be combining pretty much everything you learn here together.
