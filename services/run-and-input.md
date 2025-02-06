@@ -69,7 +69,7 @@ Keyboard things are considered Enum objects - a data type which in Roblox Studio
         print("Key Q pressed")
     end
 ```
-In the above example, if the key pressed was Q, it'd print that to console. You can do this with pretty much every key Roblox will support - so allow autocomplete to help you out a little bit.. Sometimes atleast. Please do not use the Roblox AI Assistant.
+In the above example, if the key pressed was Q, it'd print that to console. You can do this with pretty much every key Roblox will support - so allow autocomplete to help you out a little bit.. Sometimes atleast. Please do not use the Roblox AI Assistant. You can also check for when input is changed, or ended in the same way, in which case ``uis.InputChanged`` will be activated when you switch keys, or any other form of input, while ``uis.InputEnded`` will fire whenever you let go of that key (for example).
 
 ### Extra Notes
 <sup>[1]</sup> This is likely inaccurate. <br>
